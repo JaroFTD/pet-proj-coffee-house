@@ -1,0 +1,21 @@
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: rem(20);
+	height: rem(20);
+	transition: all 0.3s ease 0s;
+}
+.icon--arrow {
+	fill: var(--main-color);
+	@media (any-hover: hover){
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+}
+.icon--cart {
+	stroke: var(--main-color);
+	fill: #fff;
+	width: rem(60);
+	height: rem(60);
+}

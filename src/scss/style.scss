@@ -1,0 +1,49 @@
+@use "sass:math";
+
+@import "mixins.scss";
+
+@import "fonts.scss";
+
+@import "vars.scss";
+
+$fontSize: rem(16);
+
+$minWidth: 320;
+
+$maxWidthContainer: 1270;
+
+$containerPadding: 30;
+
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+$pc: em($containerWidth);
+$tablet: em(991.98);
+$mobile: em(767.98);
+$mobileSmall: em(479.98);
+
+@import "nullstyles.scss";
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   min-height: 100%;
+}
+
+.page{
+   flex: 1 1 auto;
+}
+
+[class*=__container]{
+   max-width: rem($maxWidthContainer);
+   box-sizing: content-box;
+   padding: 0 rem(math.div($containerPadding, 2));
+   margin: 0 auto;
+}
+
+@import "common.scss";
+@import "icons.scss";
+
+@import "header.scss";
+
+@import "home.scss";

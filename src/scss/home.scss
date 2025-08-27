@@ -1,0 +1,89 @@
+.products {
+   padding-block: rem(100);
+   @media (max-width: $tablet) {
+      padding-block: rem(50);
+   }
+   @media (max-width: $mobileSmall) {
+      padding-block: rem(25);
+   }
+   // .products__container
+   &__container {
+   }
+   // .products__title
+   &__title {
+      &:not(:last-child) {
+         margin-bottom: rem(40);
+      }
+      @media (max-width: $mobile) {
+         &:not(:last-child) {
+            margin-bottom: rem(20);
+         }
+      }
+   }
+   // .products__tabs
+   &__tabs {
+   }
+}
+//========================================================================================================================================================
+.reviews {
+   padding-block: rem(100);
+   @media (max-width: $tablet) {
+      padding-block: rem(50);
+   }
+   @media (max-width: $mobileSmall) {
+      padding-block: rem(25);
+   }
+   // .reviews__container
+   &__container {
+   }
+   // .reviews__title
+   &__title {
+      &:not(:last-child) {
+         margin-bottom: rem(40);
+      }
+      @media (max-width: $mobile) {
+         &:not(:last-child) {
+            margin-bottom: rem(20);
+         }
+      }
+   }
+   // .reviews__slider
+   &__slider {
+   }
+}
+//========================================================================================================================================================
+.faq {
+   padding-block: rem(100);
+   @media (max-width: $tablet) {
+      padding-block: rem(50);
+   }
+   @media (max-width: $mobileSmall) {
+      padding-block: rem(25);
+   }
+   // .faq__container
+   &__container {
+   }
+   // .faq__title
+   &__title {
+      &:not(:last-child) {
+         margin-bottom: rem(40);
+      }
+      @media (max-width: $mobile) {
+         &:not(:last-child) {
+            margin-bottom: rem(20);
+         }
+      }
+   }
+   // .faq__body
+   &__body {
+      display: grid;
+      gap: rem(30);
+      @media (max-width: $mobile) {
+         gap: rem(15);
+      }
+   }
+   // .faq__spollers
+   &__spollers {
+   }
+}
+//========================================================================================================================================================
