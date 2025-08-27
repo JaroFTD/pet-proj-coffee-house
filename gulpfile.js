@@ -30,7 +30,6 @@ const srcFolder = 'src';
 const destFolder = 'dist';
 const isDev = process.env.NODE_ENV === 'development';
 
-console.log(process.env.NODE_ENV);
 function clean() {
    return del('dist/*');
 }
