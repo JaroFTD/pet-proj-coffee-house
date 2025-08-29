@@ -1,0 +1,12 @@
+.footer {
+   padding-block: rem(20);
+   text-wrap: balance;
+   text-align: center;
+   // .footer__container
+   &__container {
+   }
+   // .footer__copy
+   &__copy {
+      line-height: math.div( , );
+   }
+}
