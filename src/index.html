@@ -12,7 +12,16 @@
    @@include('html/header.html')
    <div class="wrapper">
       <main class="page">
-         <section class="page__products products">
+         <section id="main" class="page__main main">
+            <div class="main__container">
+               <h1 class="main__title title">Ваш уголок уюта в сердце города</h1>
+               <div class="main__text text">
+                  <p>Здесь время замедляет ход. Аромат свежесмолотого кофе, нежное пенное молоко и теплота домашней выпечки. Приходите за вкусом, оставайтесь ради атмосферы.</p>
+               </div>
+               <a href="#products" class="main__btn">Посмотреть меню</a>
+            </div>
+         </section>
+         <section id="products" class="page__products products">
             <div class="products__container">
                <h2 class="products__title title">Меню</h2>
                <div class="products__tabs tabs">
@@ -59,7 +68,7 @@
                </div>
             </div>
          </section>
-         <section class="page__reviews reviews">
+         <section id="reviews" class="page__reviews reviews">
             <div class="reviews__container">
                <h2 class="reviews__title title">Отзывы</h2>
                <div class="reviews__slider slider">
@@ -152,7 +161,7 @@
                </div>
             </div>
          </section>
-         <section class="page__faq faq">
+         <section id="faq" class="page__faq faq">
             <div class="faq__container">
                <h2 class="faq__title title">Faq</h2>
                <div class="faq__body">
