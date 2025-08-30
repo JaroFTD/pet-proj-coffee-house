@@ -4,10 +4,10 @@ let isAnimating = false;
 function initSpollers(target) {
    if (isAnimating) return;
 
-   let spollersTitle = target.closest('.spollers__title');
-   if (spollersTitle) {
+   let spollerstitle = target.closest('.spollers__title');
+   if (spollerstitle) {
       isAnimating = true;
-      let spollersItem = spollersTitle.parentElement;
+      let spollersItem = spollerstitle.parentElement;
       let spollersBody = spollersItem.querySelector('.spollers__body');
 
       _slideToggle(spollersBody);

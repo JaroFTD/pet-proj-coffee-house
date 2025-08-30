@@ -6,12 +6,12 @@ function initAllTabs() {
 }
 
 function initTabs(item) {
-   const tabsTitle = item.querySelectorAll('.tabs__title');
+   const tabstitle = item.querySelectorAll('.tabs__title');
 
-   tabsTitle.forEach(title => {
+   tabstitle.forEach(title => {
       title.addEventListener('click', function (e) {
-         const activeTitle = item.querySelector('.tabs__title._active');
-         activeTitle?.classList.remove('_active');
+         const activetitle = item.querySelector('.tabs__title._active');
+         activetitle?.classList.remove('_active');
 
          this.classList.add('_active');
          handleFilterChange();

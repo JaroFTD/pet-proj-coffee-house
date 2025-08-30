@@ -21,8 +21,8 @@ function handleFilterChange() {
    let stars = thumbValue ? +thumbValue.textContent : 3;
 
    for (let i = 0; i < tabs.length; i++) {
-      let tabsTitleActive = tabs[i].querySelector('.tabs__title._active');
-      let titlePos = tabsTitleActive.dataset.pos;
+      let tabstitleActive = tabs[i].querySelector('.tabs__title._active');
+      let titlePos = tabstitleActive.dataset.pos;
       let tabsBody = tabs[i].querySelector('.tabs__body');
 
       getMenuApi(titlePos, filters.onion, filters.sauce, stars).then(data => {
