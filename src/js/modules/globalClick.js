@@ -27,7 +27,7 @@ function initGlobalClick() {
       }
 
       if (target.closest('.popup__close')) {
-         document.querySelector('.popup').classList.remove('_active');
+         target.closest('.popup').classList.remove('_active');
       }
 
       if (target.closest('.card__btn')) {

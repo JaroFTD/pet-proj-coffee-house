@@ -6,6 +6,7 @@ import { initSliderRange } from './modules/slider-range.js';
 import { initGlobalClick } from './modules/globalClick.js';
 import { initAllFixedCart } from './modules/fixedCart.js';
 import { initAllQuantity } from './modules/quantity.js';
+import { initAllForms } from './modules/form.js';
 
 
 initSlider();
@@ -16,5 +17,6 @@ initFilters();
 initGlobalClick();
 initAllFixedCart();
 initAllQuantity();
+initAllForms();
 
 

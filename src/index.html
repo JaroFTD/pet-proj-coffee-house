@@ -16,7 +16,8 @@
             <div class="main__container">
                <h1 class="main__title title">Ваш уголок уюта в сердце города</h1>
                <div class="main__text text">
-                  <p>Здесь время замедляет ход. Аромат свежесмолотого кофе, нежное пенное молоко и теплота домашней выпечки. Приходите за вкусом, оставайтесь ради атмосферы.</p>
+                  <p>Здесь время замедляет ход. Аромат свежесмолотого кофе, нежное пенное молоко и теплота домашней
+                     выпечки. Приходите за вкусом, оставайтесь ради атмосферы.</p>
                </div>
                <a href="#products" class="main__btn">Посмотреть меню</a>
             </div>
@@ -248,16 +249,34 @@
                </div>
                <form action="#" method="post" class="popup__form form-popup">
                   <div class="form-popup__body">
-                     <input autocomplete="off" type="text" name="name" placeholder="Имя" value="Мистер Икс" class="form-popup__input input">
-                     <input autocomplete="off" type="email" name="email" placeholder="Электронная почта" value="info@email.ru" class="form-popup__input input">
-                     <input autocomplete="off" type="tel" name="phone" placeholder="Телефон" value="89999999999" class="form-popup__input input">
-                     <input autocomplete="off" type="text" name="addess" placeholder="Адрес" value="Юпитер, в созвездии Мартин" class="form-popup__input input">
+                     <input autocomplete="off" type="text" name="name" placeholder="Имя" value="Мистер Икс"
+                        class="form-popup__input input _req">
+                     <input autocomplete="off" type="email" name="email" placeholder="Электронная почта"
+                        value="info@email.ru" class="form-popup__input input _req">
+                     <input autocomplete="off" type="tel" name="phone" placeholder="Телефон" value="89999999999"
+                        class="form-popup__input input _req">
+                     <input autocomplete="off" type="text" name="addess" placeholder="Адрес"
+                        value="Юпитер, в созвездии Мартин" class="form-popup__input input _req">
                   </div>
                   <div class="form-popup__group">
                      <div class="form-popup__total-price">Общая сумма: <span>2000р</span></div>
                      <button type="submit" class="form-popup__btn">Оформить</button>
                   </div>
                </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="popup-sending" class="popup">
+      <div class="popup__wrapper">
+         <div class="popup__content">
+            <button type="button" class="popup__close"></button>
+            <div class="popup__body">
+               <h2 class="popup__title title">Заявка отправлена</h2>
+               <div class="popup__text text">
+                  <p>Спасибо, что выбрали нас! Ваш заказ уже начали готовить.</p>
+                  <p>Скоро вы сможете насладиться любимым вкусом!</p>
+               </div>
             </div>
          </div>
       </div>

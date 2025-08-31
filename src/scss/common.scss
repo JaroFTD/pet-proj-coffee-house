@@ -508,6 +508,11 @@
       pointer-events: auto;
       visibility: visible;
    }
+   &#popup-sending{
+      .popup__content{
+         max-width: rem(600);
+      }
+   }
    // .popup__wrapper
    &__wrapper {
       display: flex;
@@ -584,6 +589,13 @@
    }
    // .popup__form
    &__form {
+   }
+   // .popup__text
+   &__text {
+      text-align: center;
+      p:not(:last-child) {
+         margin-bottom: rem(10);
+      }
    }
 }
 //========================================================================================================================================================
